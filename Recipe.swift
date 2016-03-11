@@ -14,13 +14,11 @@ import UIKit
 class Recipe: NSManagedObject {
     func setRecipeImage(image: UIImage) {
         let data = UIImagePNGRepresentation(image)
-        
         self.image = data
     }
     
     func getRecipeImage() -> UIImage {
         let image = UIImage(data: self.image!)!
-        
         return image
     }
 }
