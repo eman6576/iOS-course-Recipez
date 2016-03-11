@@ -16,6 +16,7 @@
 		88F811191C93716D00E2405E /* Recipe+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F811171C93716D00E2405E /* Recipe+CoreDataProperties.swift */; };
 		88F8111A1C93716D00E2405E /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F811181C93716D00E2405E /* Recipe.swift */; };
 		88F8111C1C93731800E2405E /* RecipeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F8111B1C93731800E2405E /* RecipeCell.swift */; };
+		88F8111E1C937FC000E2405E /* CreateRecipeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F8111D1C937FC000E2405E /* CreateRecipeVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		88F811171C93716D00E2405E /* Recipe+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Recipe+CoreDataProperties.swift"; path = "../Recipe+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		88F811181C93716D00E2405E /* Recipe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Recipe.swift; path = ../Recipe.swift; sourceTree = "<group>"; };
 		88F8111B1C93731800E2405E /* RecipeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeCell.swift; sourceTree = "<group>"; };
+		88F8111D1C937FC000E2405E /* CreateRecipeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateRecipeVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,9 +68,7 @@
 				88F811151C9370ED00E2405E /* View */,
 				88F811141C9370E600E2405E /* Model */,
 				88F810FF1C93692100E2405E /* AppDelegate.swift */,
-				88F811031C93692100E2405E /* Main.storyboard */,
 				88F811091C93692100E2405E /* Assets.xcassets */,
-				88F8110B1C93692100E2405E /* LaunchScreen.storyboard */,
 				88F8110E1C93692100E2405E /* Info.plist */,
 				88F811061C93692100E2405E /* Recipez.xcdatamodeld */,
 			);
@@ -88,6 +88,8 @@
 			isa = PBXGroup;
 			children = (
 				88F8111B1C93731800E2405E /* RecipeCell.swift */,
+				88F811031C93692100E2405E /* Main.storyboard */,
+				88F8110B1C93692100E2405E /* LaunchScreen.storyboard */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -96,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				88F811011C93692100E2405E /* ViewController.swift */,
+				88F8111D1C937FC000E2405E /* CreateRecipeVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -176,6 +179,7 @@
 				88F811191C93716D00E2405E /* Recipe+CoreDataProperties.swift in Sources */,
 				88F811001C93692100E2405E /* AppDelegate.swift in Sources */,
 				88F8111C1C93731800E2405E /* RecipeCell.swift in Sources */,
+				88F8111E1C937FC000E2405E /* CreateRecipeVC.swift in Sources */,
 				88F811081C93692100E2405E /* Recipez.xcdatamodeld in Sources */,
 				88F8111A1C93716D00E2405E /* Recipe.swift in Sources */,
 			);
